@@ -1,0 +1,5 @@
+Flask
+# Aws S3
+boto3>=1.26.79
+# GCP Storage
+google-cloud-storage
