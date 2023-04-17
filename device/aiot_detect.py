@@ -16,8 +16,8 @@ from utils.plots import plot_one_box
 from utils.torch_utils import select_device, load_classifier, time_synchronized, TracedModel
 
 from line_notify import LineNotify
-from aws_s3 import AwsS3
-from gcp_sotorage import GcpStorage
+from cloud.aws_s3 import AwsS3
+from cloud.gcp_sotorage import GcpStorage
 
 
 def detect(save_img=False):

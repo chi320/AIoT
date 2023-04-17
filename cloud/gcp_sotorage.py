@@ -1,7 +1,7 @@
 import os
 from google.cloud import storage
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = ".\env\aiot-382911-c15a2a9a3b69.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "credentials.json"
 
 
 class GcpStorage:
@@ -102,5 +102,5 @@ class GcpStorage:
 if __name__ == "__main__":
     gcp_storage = GcpStorage()
     gcp_storage.list_buckets()
-    gcp_storage.list_blobs('test230407')
-    # gcp_storage.upload_blob('test230407', 'test.txt', 'rec/test123.txt')
+    # gcp_storage.list_blobs('mybucket')
+    # gcp_storage.upload_blob('mybucket', 'test.txt', 'test.txt')
