@@ -3,3 +3,4 @@ Flask
 boto3>=1.26.79
 # GCP Storage
 google-cloud-storage
+gunicorn
