@@ -17,7 +17,7 @@ from utils.torch_utils import select_device, load_classifier, time_synchronized,
 
 from line_notify import LineNotify
 from cloud.aws_s3 import AwsS3
-from cloud.gcp_sotorage import GcpStorage
+from cloud.gcp_storage import GcpStorage
 
 
 def detect(save_img=False):
